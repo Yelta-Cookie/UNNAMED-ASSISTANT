@@ -1,0 +1,80 @@
+
+COMMAND EXPLAINATIONS FROM HERE
+help
+Command #000: help@@Gives information about how to use the assistant. Type in a command name behind it to get information about this command.@@example:@@  help help@@  Command #000: help@@  Gives information on how to use the assistant....
+repeat@@say
+Command #001: repeat / say@@Type in a text behind it to make the assistant read the text.@@example:@@  repeat user, you are beautiful.@@  "user, you are beautiful.
+database@@txt@@copa@@copypaste@@info@@data
+Command #002: data / database / txt / copa / copypaste / info@@Type in a keyword behind it to make the assistant read the associated text from the database. You can make entries to your database yourself with the database.txt file.
+entirelink
+Command #009: entirelink@@Type in a website link behind it (https://www.example.com/q/search/example) to let the assistant read the text on the website
+website
+Command #010: website@@Type in a website behind it (example.com) to let the assistant read the text on the website
+wikipedia
+Command #011: wikipedia@@Type in a keyword behind it to let the assistant read it's wikipedia page, if it exists.
+metric
+Command #020: metric@@Converts units into their equivalents in the metric system@@example:@@  metric 5 inch@@5 inch equals 0.127m@@supported units:@@h min day month year week sec kg t mg g cm km dm mm inch foot mil hu yd Li mi sm m USD JPY GBP AUD CAD CHF EUR K °F °C
+convert
+Command #021: convert@@Converts units into other units@@example:@@  convert 1 year to seconds@@1 year equals 31622400 sec@@supported units:@@h min day month year week sec kg t mg g cm km dm mm inch foot mil hu yd Li mi sm m USD JPY GBP AUD CAD CHF EUR K °F °C
+calculate
+Command #030: calculate@@Calculates simple math exercises@@example:@@ calculate 3*(1+4)@@3*(1+4) equals 15
+numbersys
+Command #031: numbersys@@Converts a number into another number system (e.g. 2 for binary)@@example:@@  numbersys 6 100@@244@@Note that this command only supports number systems up to 36. Digits above 9 will be displayed as characters in alphabetical order (a=10, b=11...)
+decimal
+Command #032: decimal@@Converts a number from a different number system (e.g. 2 for binary) back to decimal@@example:@@  decimal 6 244@@100@@Note that this command only supports number systems up to 36. Digits above 9 will be displayed as characters in alphabetical order (a=10, b=11...)
+coinflip
+Command #040: coinflip@@Flips a coin.@@example:@@ coinflip@@Tails
+randomnum
+Command #041: randomnum@@Outputs a random number between 1 and the given number@@example:@@  randomnum 30@@17
+timetime
+Command #050: timetime@@Tells you the time with a single number (seconds passed since 1.1.1970)@@example:@@  timetime@@1608481121
+timer
+Command #051: timer@@Sets a timer for a certain time span in seconds@@example:@@  timer 5@@"Set timer to 10 seconds. Starting now".@@5 seconds remaining (out of 5)@@4 seconds remaining (out of 5)@@3 seconds remaining (out of 5)@@2 seconds remaining (out of 5)@@1 seconds remaining (out of 5)@@"Time's up!"
+time@@date
+Command #052: time / date@@Tells you the current date and time.@@example:@@  time@@Sat Dec 26 12:30:13 2020
+mcstacks
+Command #064: mcstacks@@Converts a number into minecraft storage units@@example:@@  mcstacks 5000@@"5000 equals 1 double-chest, 2 chest-rows, 6 stacks and 8 items."
+volume
+Commands #065: volume@@Calculates the volume of cubes, cuboids, spheres, cylinders, cones, tetrahedons and torus.@@example:@@  volume cuboid 3 4 5@@Volume: 60.0 unit³@@Note: This command has a built-in error function that tells you which measurements to use where.@@example:@@  volume cuboid 1 2@@Please enter 'volume cuboid' and the side lenths a b c of the cuboid.
+enmorse
+Command #070: enmorse@@Converts text into morse code@@example:@@  enmorse test 123@@- . ... -     .---- ..--- ...--
+demorse
+Command #071: demorse@@Converts morse code into text@@example:@@  demorse - . ... -     .---- ..--- ...--@@t e s t 1 2 3@@Note to only use . (normal point/period) and - (normal minus/hyphen)
+enceaser
+Command #072: enceaser@@Converts text into ceaser code@@example:@@  enceaser test@@paop
+deceaser
+Command #073: deceaser@@Converts ceaser code into text@@example:@@  deceaser paop@@test
+encode
+Command #074: encode@@Converts text into code with an exclusive own encoder@@example:@@  encode this is a test@@ÄU$1CDCÄ~1Ä
+decode
+Command #075: decode@@Converts a text encoded with the encode command back to normal text@@example:@@  decode ÄU$1C$1CDCÄ~1Ä@@this is a test
+filterfr
+Command #080: filterfr@@Converts a text into french. Kinda. Probably useless, but maybe funny. I got the idea during french lessons.@@example:  filterfr only if you write a longer text you will see what this command actually does@@only if you writ'a longre texte you will see whate this commande actually does
+filtersw
+Command #081: filtersw@@Scrambles every character of each word except the first one. Surprisingly, you will still be able to read it afterwards.@@example:@@  filtersw Let's write a simple example sentence here@@L'est wtrie a smlpie eexampla stnenece hree
+copaeurope
+Command #090: copaeurope@@Types out european unicode characters for reference and to copy-paste if you save the page@@(yes you can't copy-paste it out of the window this feature was originally planned but, at least for me, it wasn't worth the effort)
+coparunes
+Command #091: coparunes@@Types out runes in unicode for reference and to copy-paste if you save the page@@(yes you can't copy-paste it out of the window this feature was originally planned but, at least for me, it wasn't worth the effort)
+copabuisness
+Command #091: copabuisness@@Types out some unicode characters for reference and to copy-paste if you save the page@@(yes you can't copy-paste it out of the window this feature was originally planned but, at least for me, it wasn't worth the effort)
+copamaths
+Command #091: copamaths@@Types out some unicode characters for reference and to copy-paste if you save the page@@(yes you can't copy-paste it out of the window this feature was originally planned but, at least for me, it wasn't worth the effort)
+asciiart
+Command #100: asciiart@@Converts an image from your PC to Asciiart. Also type in a number for the height.@@In this example, I use the an image of Super Mario.@@example:@@  asciiart 32 C:\Users\Dell\Pictures\sample.png@@            ¡D/D¡e              @@         °/eae-T  L             @@        !  'L!'-y/^             @@       q   ^T¡By^|'             @@      °   Ye|+T^ °|             @@      B FD!a|T°y-H|             @@       '>!_T  °EoA|             @@         !T/-AEaLEx'a   eYyy    @@      y-Ay    ^T °  °^DY|  e    @@    KE   /B°°A          E YV    @@    D  Te°   T       /  | /     @@    °-L'-'   B     B   D¡ ^     @@           Y^     !             @@          |yKL  y'              @@           ) 'Ya                @@___________e__E_________________
+REST IN PEACE
+A minute of silence for the Commands 101 ytvideo, 102 ytaudio, 103 ytplayaudio, 104 ytsubs, 105 ytdescription and 106 watch. They were always very buggy and thanks to youtube didn't work at all in the end, which was at the time where I just wanted to finish this project and not do anything too big anymore. These command would've been able to download youtube videos, download only their audios, play their audios, download the subtitles, download the description and play a video with 2FPS as asciiart in the assistant window. The first one was the only one that ever worked however.
+blackjack
+Command #107: blackjack@@Lets you play a game of blackjack. Enter a number to bet the coins earned from the farm and shooter commands. You can't play without money. You can bet amount that's smaller than your coin balance.
+shooter
+Command #108: shooter@@Klick on the buttons appearing on the assistant window to earn money. More will be explained when starting the game.
+coins
+Command #110: coins@@Tells you how many coins you currently have and what level your farm is.
+upgradefarm
+Command #111: upgradefarm@@Upgrades your farm if possible to make you earn more coins. It's kind of an IDLE game
+pwgenerator
+Command #120: pwgenerator@@Generates a random set of 16 characters from the basic unicode, with no characters possible to be twice in it.
+hacker
+Command #130: hacker@@Starts a hacking screen. Or what most people think hacking looks like. You can use it in school to prank your teacher, at least that's what those "simulators" are usually used for. There's no other purpose for it, but it might break through the Pentagon's firewall and convert all the money of the US to bitcoins which get washed through a network of Zombie Computers and then find their way on your bank account.
+txt@@txtroti@@txtngnl@@txtwilbur
+Commands #200+: txtroti, txtngnl, txtwilbur@@Copy-paste commands that should've been moved into the database command, but I just can't be bothered anymore. Sorry.@@It still works however. They tell you the Rules of the Internet, the rules in No Game No Life (yes I was a weeabo once) and the Rules of Wilburs Soots Try not to laugh challanges (yes I once liked them and the older videos are still good).
