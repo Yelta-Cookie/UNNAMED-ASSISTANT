@@ -1,3 +1,5 @@
+START THE ASSISTANT BY RUNNING main.py
+
 You did it! You have opened this programm's readme file!
 
 Voice:
